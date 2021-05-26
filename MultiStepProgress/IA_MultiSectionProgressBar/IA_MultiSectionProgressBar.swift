@@ -30,7 +30,7 @@ class IA_MultiSectionProgressBar: UIStackView{
         self.totalProgressWidth = parentView.frame.width
         parentView.addSubview(self)
         
-        self.layer.cornerRadius = self.bounds.height / 3.5
+        self.layer.cornerRadius = self.bounds.height * 0.2
 
         self.sectionsList.removeAll()
         self.axis = .horizontal
