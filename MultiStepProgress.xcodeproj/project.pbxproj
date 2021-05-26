@@ -12,6 +12,7 @@
 		A570CBFE265E68F40096A324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A570CBFC265E68F40096A324 /* Main.storyboard */; };
 		A570CC00265E68F60096A324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A570CBFF265E68F60096A324 /* Assets.xcassets */; };
 		A570CC03265E68F60096A324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A570CC01265E68F60096A324 /* LaunchScreen.storyboard */; };
+		A570CC0F265E69740096A324 /* IA_MultiSectionProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A570CBFF265E68F60096A324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A570CC02265E68F60096A324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A570CC04265E68F60096A324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA_MultiSectionProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A570CBF5265E68F40096A324 /* MultiStepProgress */ = {
 			isa = PBXGroup;
 			children = (
+				A570CC0D265E69590096A324 /* IA_MultiSectionProgressBar */,
 				A570CBF6265E68F40096A324 /* AppDelegate.swift */,
 				A570CBFA265E68F40096A324 /* ViewController.swift */,
 				A570CBFC265E68F40096A324 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				A570CC04265E68F60096A324 /* Info.plist */,
 			);
 			path = MultiStepProgress;
+			sourceTree = "<group>";
+		};
+		A570CC0D265E69590096A324 /* IA_MultiSectionProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */,
+			);
+			path = IA_MultiSectionProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			files = (
 				A570CBFB265E68F40096A324 /* ViewController.swift in Sources */,
 				A570CBF7265E68F40096A324 /* AppDelegate.swift in Sources */,
+				A570CC0F265E69740096A324 /* IA_MultiSectionProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
