@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A570CBF7265E68F40096A324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570CBF6265E68F40096A324 /* AppDelegate.swift */; };
-		A570CBF9265E68F40096A324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570CBF8265E68F40096A324 /* SceneDelegate.swift */; };
 		A570CBFB265E68F40096A324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570CBFA265E68F40096A324 /* ViewController.swift */; };
 		A570CBFE265E68F40096A324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A570CBFC265E68F40096A324 /* Main.storyboard */; };
 		A570CC00265E68F60096A324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A570CBFF265E68F60096A324 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		A570CBF3265E68F40096A324 /* MultiStepProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiStepProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A570CBF6265E68F40096A324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A570CBF8265E68F40096A324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A570CBFA265E68F40096A324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A570CBFD265E68F40096A324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A570CBFF265E68F60096A324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				A570CBF6265E68F40096A324 /* AppDelegate.swift */,
-				A570CBF8265E68F40096A324 /* SceneDelegate.swift */,
 				A570CBFA265E68F40096A324 /* ViewController.swift */,
 				A570CBFC265E68F40096A324 /* Main.storyboard */,
 				A570CBFF265E68F60096A324 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				A570CBFB265E68F40096A324 /* ViewController.swift in Sources */,
 				A570CBF7265E68F40096A324 /* AppDelegate.swift in Sources */,
-				A570CBF9265E68F40096A324 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +284,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MultiStepProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MultiStepProgress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
