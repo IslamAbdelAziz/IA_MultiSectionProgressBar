@@ -19,7 +19,7 @@ class IA_ProgressBar: UIStackView{
     }
     
     
-    func create(parentView: UIView, sections: [IA_MultiSection]){
+    func create(parentView: UIView, sections: [IA_MultiSection], font: UIFont? = nil){
         guard sections.count > 0 else{
             fatalError("YOU MUST ADD SECTIONS")
         }
@@ -37,7 +37,7 @@ class IA_ProgressBar: UIStackView{
         progressView.create(parentView: self, sections: sections)
         
         let indicatorView = IA_Progress_Indicator()
-        indicatorView.create(parentView: self, sections: sections)
+        indicatorView.create(parentView: self, sections: sections, font: font)
         
     }
     

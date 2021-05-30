@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             IA_MultiSection(_tintColor: .red, _percentage: 1, _title: "red"),
             IA_MultiSection(_tintColor: .yellow, _percentage: 1, _title: "yellow"),
             IA_MultiSection(_tintColor: .systemGreen, _percentage: 0.5, _title: "green")
-        ])
+        ], font: nil)
         
         
     }

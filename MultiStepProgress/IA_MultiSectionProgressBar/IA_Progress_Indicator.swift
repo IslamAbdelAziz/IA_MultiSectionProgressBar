@@ -19,7 +19,7 @@ class IA_Progress_Indicator: UIStackView{
     }
     
     
-    func create(parentView: UIStackView, sections: [IA_MultiSection]){
+    func create(parentView: UIStackView, sections: [IA_MultiSection], font: UIFont? = nil){
         let v = UIStackView()
         v.axis = .horizontal
         v.distribution = .fillEqually
@@ -47,6 +47,9 @@ class IA_Progress_Indicator: UIStackView{
             NSLayoutConstraint.activate([con])
             
             let titleLabel = UILabel()
+            if let font = font{
+                titleLabel.font = font
+            }
             titleLabel.text = item.title
             titleLabel.adjustsFontSizeToFitWidth = true
             
