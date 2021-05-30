@@ -35,9 +35,11 @@ class IA_Progress_Indicator: UIStackView{
             let colorParentView = UIView()
             let colorView = UIView(frame: CGRect(x: 4, y: 4, width: 12, height: 12))
             colorView.backgroundColor = item.tintColor
-            print(item.tintColor)
+            
+            colorView.layer.cornerRadius = 2
             colorView.heightAnchor.constraint(equalToConstant: 12).isActive = true
             colorView.widthAnchor.constraint(equalToConstant: 12).isActive = true
+
             colorParentView.addSubview(colorView)
             
             let con = colorParentView.rightAnchor.constraint(equalTo: colorView.rightAnchor, constant: 4)
@@ -46,6 +48,7 @@ class IA_Progress_Indicator: UIStackView{
             
             let titleLabel = UILabel()
             titleLabel.text = item.title
+            titleLabel.adjustsFontSizeToFitWidth = true
             
             indicatorView.addArrangedSubview(colorParentView)
             indicatorView.addArrangedSubview(titleLabel)

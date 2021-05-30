@@ -39,40 +39,6 @@ class IA_ProgressBar: UIStackView{
         let indicatorView = IA_Progress_Indicator()
         indicatorView.create(parentView: self, sections: sections)
         
-//        let v = UIStackView()
-//        v.axis = .horizontal
-//        v.distribution = .fillEqually
-//
-////        v.backgroundColor = .systemPink
-//
-//        for item in sections{
-//            let indicatorView = UIStackView()
-//            indicatorView.axis = .horizontal
-//            indicatorView.distribution = .fill
-//            indicatorView.spacing = 2
-//
-//            let colorParentView = UIView()
-//            let colorView = UIView(frame: CGRect(x: 4, y: 4, width: 12, height: 12))
-//            colorView.backgroundColor = item.tintColor
-//            print(item.tintColor)
-//            colorView.heightAnchor.constraint(equalToConstant: 12).isActive = true
-//            colorView.widthAnchor.constraint(equalToConstant: 12).isActive = true
-//            colorParentView.addSubview(colorView)
-//
-//            let con = colorParentView.rightAnchor.constraint(equalTo: colorView.rightAnchor, constant: 4)
-//
-//            NSLayoutConstraint.activate([con])
-//
-//            let titleLabel = UILabel()
-//            titleLabel.text = item.title
-//
-//            indicatorView.addArrangedSubview(colorParentView)
-//            indicatorView.addArrangedSubview(titleLabel)
-//
-//            v.addArrangedSubview(indicatorView)
-//
-//        }
-//        self.addArrangedSubview(v)
     }
     
     
