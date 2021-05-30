@@ -21,14 +21,15 @@ class IA_MultiSectionProgressBar: UIStackView{
     }
     
     
-    func create(parentView: UIView, sections: [IA_MultiSection]){
+    func create(parentView: UIStackView, sections: [IA_MultiSection]){
         guard sections.count > 0 else{
             fatalError("YOU MUST ADD SECTIONS")
         }
         self.clipsToBounds = true
         self.frame = parentView.bounds
         self.totalProgressWidth = parentView.frame.width
-        parentView.addSubview(self)
+//        parentView.addSubview(self)
+        parentView.addArrangedSubview(self)
         
         self.layer.cornerRadius = self.bounds.height * 0.2
 
@@ -69,10 +70,12 @@ class IA_MultiSection{
     var tintColor: UIColor
     var percentage: CGFloat
     var zPosition: CGFloat
+    var title: String
 
-    init(_tintColor: UIColor, _percentage: CGFloat) {
+    init(_tintColor: UIColor, _percentage: CGFloat, _title: String) {
         tintColor = _tintColor
         percentage = _percentage
         zPosition = 0
+        title = _title
     }
 }

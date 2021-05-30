@@ -39,27 +39,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdD-kU-kJZ">
-                                <rect key="frame" x="87" y="438" width="240" height="20"/>
+                                <rect key="frame" x="87" y="428" width="240" height="40"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="9gG-EZ-ab7"/>
+                                    <constraint firstAttribute="height" constant="40" id="9gG-EZ-ab7"/>
                                     <constraint firstAttribute="width" constant="240" id="Lg6-MK-i7J"/>
                                 </constraints>
                             </view>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rnx-hV-xo5">
-                                <rect key="frame" x="132" y="711" width="150" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="Rui-TF-dYV"/>
-                                    <constraint firstAttribute="width" constant="150" id="dGS-gS-8IX"/>
-                                </constraints>
-                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Rnx-hV-xo5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2ba-mo-dhu"/>
                             <constraint firstItem="CdD-kU-kJZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="36i-ms-T1M"/>
-                            <constraint firstItem="Rnx-hV-xo5" firstAttribute="top" secondItem="CdD-kU-kJZ" secondAttribute="bottom" constant="253" id="CMz-MO-UnU"/>
                             <constraint firstItem="CdD-kU-kJZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kCM-L6-PZM"/>
                         </constraints>
                     </view>

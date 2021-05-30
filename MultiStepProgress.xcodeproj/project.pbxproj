@@ -13,6 +13,8 @@
 		A570CC00265E68F60096A324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A570CBFF265E68F60096A324 /* Assets.xcassets */; };
 		A570CC03265E68F60096A324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A570CC01265E68F60096A324 /* LaunchScreen.storyboard */; };
 		A570CC0F265E69740096A324 /* IA_MultiSectionProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */; };
+		A5877E0A265FDF18007453C9 /* IA_ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5877E09265FDF18007453C9 /* IA_ProgressBar.swift */; };
+		A5877E0E2663AED6007453C9 /* IA_Progress_Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5877E0D2663AED6007453C9 /* IA_Progress_Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A570CC02265E68F60096A324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A570CC04265E68F60096A324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA_MultiSectionProgressBar.swift; sourceTree = "<group>"; };
+		A5877E09265FDF18007453C9 /* IA_ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA_ProgressBar.swift; sourceTree = "<group>"; };
+		A5877E0D2663AED6007453C9 /* IA_Progress_Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA_Progress_Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				A570CC0E265E69740096A324 /* IA_MultiSectionProgressBar.swift */,
+				A5877E09265FDF18007453C9 /* IA_ProgressBar.swift */,
+				A5877E0D2663AED6007453C9 /* IA_Progress_Indicator.swift */,
 			);
 			path = IA_MultiSectionProgressBar;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 			files = (
 				A570CBFB265E68F40096A324 /* ViewController.swift in Sources */,
 				A570CBF7265E68F40096A324 /* AppDelegate.swift in Sources */,
+				A5877E0A265FDF18007453C9 /* IA_ProgressBar.swift in Sources */,
 				A570CC0F265E69740096A324 /* IA_MultiSectionProgressBar.swift in Sources */,
+				A5877E0E2663AED6007453C9 /* IA_Progress_Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
